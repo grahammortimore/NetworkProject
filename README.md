@@ -53,7 +53,7 @@ The machines on the internal network are not exposed to the public Internet.
 Machines within the network can only be accessed by the Jump Box Provisioner located at the IP address above.
 
 
-A summary of the access policies in place can be found in the table below.
+#### A summary of the access policies in place can be found in the table below.
 
 | Name                 | Publicly Accessible | Allowed IP Addresses |
 |----------------------|---------------------|----------------------|
@@ -77,7 +77,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Enable docker service
 
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+#### The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![Screenshot of docker ps output](https://github.com/grahammortimore/NetworkProject/blob/main/Diagrams/docker_ps.png)
 

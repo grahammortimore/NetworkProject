@@ -77,9 +77,9 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Enable docker service
 
 
-#### The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Screenshot of docker ps output](/NetworkProject/blob/main/Diagrams/docker_ps.png)
+![Screenshot of docker ps output](https://github.com/grahammortimore/NetworkProject/blob/main/Diagrams/docker_ps.png)
 
 ### Target Machines & Beats
 #### This ELK server is configured to monitor the following machines:  

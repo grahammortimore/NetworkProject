@@ -27,11 +27,12 @@ Load balancers protect the webservers from being overloaded by evenly routing tr
 With a jump box you can limit administrative privledges to a small few people on certain boxes.    
 #### The purpose of a load balancer:  
 The purpose of the load balancer is to stand in front of the servers and redirect traffic in the case of a down or overloaded server. For example if you had a load balancer in front of 3 web servers and one were to go down, the load balancer would then re route the traffic evenly amongst the two servers still standing automatically.  
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.    
+    
 #### What does Filebeat watch for?:  
 Filebeat watches for any changes to the log or system files on the servers.    
 #### What does Metricbeat record?:  
 Metricbeat records metrics from the OS and services running on the servers.  
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.
 
 #### The configuration details of each machine may be found below.
 

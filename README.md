@@ -86,7 +86,7 @@ We have installed the following Beats on these machines:
 Filebeat  
 
 
-These Beats allow us to collect the following information from each machine:
+These Beats allow us to collect the following information from each machine:  
 Filebeat monitors the log and system files for changes and forwards them to your ELK server for you to view.
 
 ### Using the Playbook

@@ -43,9 +43,9 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet.
 
 #### Only the virtual jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:  
-199.192.158.7
+- 199.192.158.7
 
-Machines within the network can only be accessed by the Jump Box Provisioner.
+Machines within the network can only be accessed by the Jump Box Provisioner located at the IP address above.
 
 
 A summary of the access policies in place can be found in the table below.
@@ -83,11 +83,11 @@ Web-2 - 10.0.0.7
 Web-3 - 10.0.0.10  
 
 #### We have installed the following Beats on these machines:  
-Filebeat  
+- Filebeat  
 
 
 #### These Beats allow us to collect the following information from each machine:  
-Filebeat monitors the log and system files for changes and forwards them to your ELK server for you to view.
+Filebeat monitors the log and system files for changes and forwards them to Elastisearch or to Logstash for you to view.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:

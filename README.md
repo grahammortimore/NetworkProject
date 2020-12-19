@@ -29,14 +29,14 @@ What does Filebeat watch for?:  Filebeat watches for any changes to the log or s
 What does Metricbeat record?:  Metricbeat records metrics from the OS and services running on the servers
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO                             |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Name                 | Function               | IP Address | OS    |
+|----------------------|------------------------|------------|-------|
+| Jump-Box-Provisioner | Gateway                | 10.0.0.4   | Linux |
+| Web-1                | Web Server             | 10.0.0.6   | Linux |
+| Web-2                | Web Server             | 10.0.0.7   | Linux |
+| Web-3                | Web Server             | 10.0.0.10  | Linux |
+| Elk-Server           | Data Processing Server | 10.1.0.5   | Linux |
 
 ### Access Policies
 

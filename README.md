@@ -93,8 +93,8 @@ Web-3 - 10.0.0.10
 
 
 #### These Beats allow us to collect the following information from each machine:  
-Filebeat monitors the log and system files for changes and forwards them to Elastisearch or to Logstash for you to view.  
-Metricbeat collect metrics from the operating system and from services running on the server and sends them to Elastisearch or to Logstash for you to view.
+Filebeat monitors the log and system files for changes and forwards them to Elasticsearch or to Logstash on your Elk server for you to view.  
+Metricbeat collect metrics from the operating system and from services running on the server and sends them to Elasticsearch or to Logstash on your Elk Server for you to view.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:

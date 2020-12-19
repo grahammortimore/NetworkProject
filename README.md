@@ -3,7 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Diagram](..blob/Master/Images/docker_ps.png)
+![Diagram](https://github.com/grahammortimore/NetworkProject/blob/main/Diagrams/VirtualNetworkDiagram.png)
 
 The files located in the /Ansible directory have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the configuration file may be used to install only certain pieces of it, such as Filebeat.
 

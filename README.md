@@ -83,7 +83,7 @@ Filebeat
 
 
 These Beats allow us to collect the following information from each machine:
-Filebeat monitors the log and system files for changes and forwards them to your ELK server for you to view and monitor.
+Filebeat monitors the log and system files for changes and forwards them to your ELK server for you to view.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:

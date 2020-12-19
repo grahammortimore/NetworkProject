@@ -33,7 +33,7 @@ Filebeat watches for any changes to the log or system files on the servers.
 #### What does Metricbeat record?:  
 Metricbeat records metrics from the OS and services running on the servers.  
 
-The configuration details of each machine may be found below.
+#### The configuration details of each machine may be found below.
 
 |  Name                 | Function               | IP Address | Operating System    |
 |----------------------|------------------------|------------|-------|
@@ -69,7 +69,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 
 #### The playbook implements the following tasks:
-- Install Docker  
+ - Install Docker  
 - Install pip3  
 - Install Docker python module
 - Increase virtual memory  
@@ -79,7 +79,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 #### The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Screenshot of docker ps output](https://github.com/grahammortimore/NetworkProject/blob/main/Diagrams/docker_ps.png)
+![Screenshot of docker ps output](/NetworkProject/blob/main/Diagrams/docker_ps.png)
 
 ### Target Machines & Beats
 #### This ELK server is configured to monitor the following machines:  

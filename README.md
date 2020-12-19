@@ -78,13 +78,13 @@ The following screenshot displays the result of running `docker ps` after succes
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 
 ### Target Machines & Beats
-This ELK server is configured to monitor the following machines:
-Web-1 - 10.0.0.6
-Web-2 - 10.0.0.7
-Web-3 - 10.0.0.10
+This ELK server is configured to monitor the following machines:  
+Web-1 - 10.0.0.6  
+Web-2 - 10.0.0.7  
+Web-3 - 10.0.0.10  
 
-We have installed the following Beats on these machines:
-Filebeat
+We have installed the following Beats on these machines:  
+Filebeat  
 
 
 These Beats allow us to collect the following information from each machine:

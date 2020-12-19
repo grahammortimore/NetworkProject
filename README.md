@@ -44,7 +44,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 The machines on the internal network are not exposed to the public Internet.
 
-Only the virtual jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the virtual jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:  
 199.192.158.7
 
 Machines within the network can only be accessed by the Jump Box Provisioner.

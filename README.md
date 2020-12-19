@@ -5,7 +5,7 @@ The files in this repository were used to configure the network depicted below.
 
 ![Diagram](https://github.com/grahammortimore/NetworkProject/blob/main/Diagrams/VirtualNetwork.png)
 
-The files located in the /Ansible directory have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the configuration file may be used to install only certain pieces of it, such as Filebeat.
+The files located in the /NetworkProject/Ansible directory have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the configuration file may be used to install only certain pieces of it, such as Filebeat.
 
 #### This document contains the following details:
 - Description of the Topology

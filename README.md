@@ -24,9 +24,9 @@ Load balancing ensures that the application will be highly accessible, in additi
 #### What aspect of security do load balancers protect?:  
 Load balancers protect the webservers from being overloaded by evenly routing traffic to the servers it is standing in front of.  
 #### What is the advantage of a jump box?:  
-With a jump box you can limit administrative privledges to a small few people on certain boxes.   
+With a jump box you can limit administrative privledges to a small few people on certain boxes.    
 #### The purpose of a load balancer:  
-The purpose of the load balancer is to stand in front of the servers and redirect traffic in the case of a down or overloaded server. For example if you had a load balancer in front of 3 web servers and one were to go down, the load balancer would then re route the traffic evenly amongst the two servers still standing automatically. 
+The purpose of the load balancer is to stand in front of the servers and redirect traffic in the case of a down or overloaded server. For example if you had a load balancer in front of 3 web servers and one were to go down, the load balancer would then re route the traffic evenly amongst the two servers still standing automatically.  
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.    
 #### What does Filebeat watch for?:  
 Filebeat watches for any changes to the log or system files on the servers.    

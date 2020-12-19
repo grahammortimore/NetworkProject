@@ -32,6 +32,7 @@ The purpose of the load balancer is to stand in front of the servers and redirec
 Filebeat watches for any changes to the log or system files on the servers.    
 #### What does Metricbeat record?:  
 Metricbeat records metrics from the OS and services running on the servers.  
+  
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.
 
 #### The configuration details of each machine may be found below.

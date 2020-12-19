@@ -35,7 +35,7 @@ Metricbeat records metrics from the OS and services running on the servers
 
 The configuration details of each machine may be found below.
 
-|  Name                 | Function               | IP Address | OS    |
+|  Name                 | Function               | IP Address | Operating System    |
 |----------------------|------------------------|------------|-------|
 | Jump-Box-Provisioner | Gateway                | 10.0.0.4   | Linux |
 | Web-1                | Web Server             | 10.0.0.6   | Linux |

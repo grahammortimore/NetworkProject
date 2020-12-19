@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the configuration file may be used to install only certain pieces of it, such as Filebeat.
 
-##### This document contains the following details:
+#### This document contains the following details:
 - Description of the Topology
 - Access Policies
 - ELK Configuration
@@ -42,7 +42,7 @@ The configuration details of each machine may be found below.
 
 The machines on the internal network are not exposed to the public Internet.
 
-##### Only the virtual jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:  
+#### Only the virtual jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:  
 199.192.158.7
 
 Machines within the network can only be accessed by the Jump Box Provisioner.
@@ -63,7 +63,7 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because there is no room for human error, once you know it will configure correctly on one system you can do the same on any other.
 
 
-##### The playbook implements the following tasks:
+#### The playbook implements the following tasks:
 - Install Docker  
 - Install pip3  
 - Install Docker python module
@@ -82,17 +82,17 @@ Web-1 - 10.0.0.6
 Web-2 - 10.0.0.7  
 Web-3 - 10.0.0.10  
 
-##### We have installed the following Beats on these machines:  
+#### We have installed the following Beats on these machines:  
 Filebeat  
 
 
-##### These Beats allow us to collect the following information from each machine:  
+#### These Beats allow us to collect the following information from each machine:  
 Filebeat monitors the log and system files for changes and forwards them to your ELK server for you to view.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
-##### SSH into the control node and follow the steps below:
+#### SSH into the control node and follow the steps below:
 - Copy the filebeat-playbook file to roles.
 - Update the hosts file to include IP addresses of the boxes you'd like to install on.
 - Run the playbook, and navigate to https://ELK_Server_IP:5601/app/kibana to check that the installation worked as expected.
